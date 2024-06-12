@@ -3,10 +3,9 @@ package api
 import (
 	"database/sql"
 	"github.com/gayashan4lk/go-backend-api-demo/service/user"
+	"github.com/gorilla/mux"
 	"log"
 	"net/http"
-
-	"github.com/gorilla/mux"
 )
 
 type APIServer struct {
